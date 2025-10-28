@@ -1,0 +1,94 @@
+/* Reset default margin & padding*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Body design */
+body {
+  background-color: #f2f2f2;
+  line-height: 1.6;
+}
+
+/* Main container */
+main {
+  width: 80%;
+  max-width: 900px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 25px;
+}
+
+/* Headings */
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #4CAF50;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+/* Skills list */
+ul li {
+  margin-left: 20px;
+  padding: 5px 0;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table, th, td {
+  border: 1px solid #777;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Form styling */
+form input, form textarea, form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #4CAF50;
+  color: white;
+  margin-top: 20px;
+}
