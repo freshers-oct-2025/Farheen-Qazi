@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Flex</title>
+
+    <style>
+        
+        .container {
+            background: #408c84;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container1 {
+            display: flex;
+            gap: 30px;
+            justify-content: space-between;
+        }
+
+        .container1 div {
+            cursor: pointer;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .container1 div:hover {
+            color: aqua;
+        }
+        /* .container2 div{
+            display: flex;
+            justify-content: space-between;
+        } */
+         .container2{
+            display: flex;
+            flex-direction: row;
+            background-color: aqua;
+         }
+         .container2 #BOX1{
+            color: #408c84;
+            background-color: aqua;
+            border-style:double ;
+            padding: 60PX;
+            width: 100VH;
+            height: 70vh;
+            text-align: center;
+            font-size: medium;
+          
+         }
+         .container2 #box2{
+              color: #408c84;
+            background-color: aqua;
+            border-style:double ;
+            padding: 60PX;
+            width: 50VH;
+            height: 70vh;
+            text-align: center;
+            font-size: medium;
+
+         }
+         .container2 #box3{
+              color: #408c84;
+            background-color: aqua;
+            border-style:double ;
+            padding: 60PX;
+            width: 50VH;
+            height: 70vh;
+            text-align: center;
+            font-size: medium;
+
+         }
+    </style>
+</head>
+
+<body>
+
+  
+    <div class="container">
+        <div class="logo">MyBrand</div>
+
+        
+        <div class="container1">
+            <div>Home</div>
+            <div>About</div>
+            <!-- <div class="container2"> -->
+            <div>Services</div>
+            <div>Contact</div>
+            </div>
+        </div>
+        <div class="container2">
+            <div id="BOX1">BOX1</div>
+            <div id="box2">BOX2</div>
+            <div id="box3">BOX3</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
