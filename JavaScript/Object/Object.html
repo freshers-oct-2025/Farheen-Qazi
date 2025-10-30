@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo">hello</h1>
+    <p id="demo3"> this is my car</p>
+    <p> pagle</p>
+
+    <script>
+        const person= {
+            firstName:"farheen",
+            lastNmae:"Qaazi"
+        };
+
+        let x = "firstName";
+        let y = "lastNmae";
+        person.age=200;
+        delete person["lastNmae"];
+        document.getElementById("demo").innerHTML=person[x] +  " " + person[y] + " is " + person.age +"years old"  ;
+
+
+        const car={
+            name:"BMW",
+            type:"fourwheeler"
+
+        ,car2:{
+            name:"Ford",
+            type:"fourwheeler"
+
+        }
+    };
+    document.getElementById("demo3").innerHTML="  This is my "+car.car2["name"]+ "and its is  "+car.car2.type;
+    </script>
+</body>
+</html>
