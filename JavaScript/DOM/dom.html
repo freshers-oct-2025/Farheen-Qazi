@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="title">
+    <p>wELCOM TO tHINKITIVE1</p>
+    <p class ="second">wELCOM TO tHINKITIVE2</p>
+    <p>wELCOM TO tHINKITIVE3</p>
+    <p>wELCOM TO tHINKITIVE4</p>
+    </div>
+<ul id="li4">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+</ul>
+
+
+    <script> 
+    
+// insertAdjecemntHtml add rlrment 
+// element.insertAdjacentHtml(positionName,text);
+// apend ,prepend() add new node to the first child 
+// replaceChild
+// getAttribut
+// setAttribute
+// hasAttribute
+// removeAttribute
+   let menu=document.querySelector(".li4");
+   li4.innerHTML="Contact";
+   menu.appendChild(list);
+   menu.innsertAdjacentHtml("beforeend","<li>contact</li>")
+   console.log(menu.textContent);
+   
+
+let second =document.querySelector(".second");
+let parent=document.querySelector(".title");
+console.log(parent.firstElementChild);
+console.log(parent.childNodes);
+console.log(second.previousElementSibling);
+console.log(second.nextElementSibling);
+// manipulate dom
+let div=document.createElement("div");
+div.innerHTML="<p>Welcom to thinkitive</p>"
+document.body.appendChild(div);
+
+console.log(div);
+// let add diff div
+
+// EventListner
+// addEventListener(event,function,useCapture) useCapture is boolean 
+  document.getElementById("btn").addEventListener("click", () => {
+    
+document.getElementById("msg").innerText = "Bro clicked the button ";
+// console.log(even)  
+});
+//   removeEventListner(event,funcrion,usecapture)
+
+
+</script>
+
+
+
+
+<button id="btn">Click me</button>
+<p id="msg"></p>
+
+</body>
+</html>
